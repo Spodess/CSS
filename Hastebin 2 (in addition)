@@ -1,0 +1,15 @@
+:root {
+--main: #1c1c1c !important;
+--hl:#d65a61 !important;
+}  
+body, html {
+  background-color:var(--main);
+  color:var(--hl);
+}
+  #box1{
+    display:none !important;
+  }
+  #box2{
+    background-color: var(--main);
+  }
+}
