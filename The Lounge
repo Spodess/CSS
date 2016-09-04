@@ -1,0 +1,300 @@
+/* Better CSS box */
+#user-specified-css-input {
+    font-family: monospace;
+    height: 400px;
+}
+
+/* Compact sidebar */
+#sidebar .networks {
+    padding: 6px 2px 6px 30px;
+}
+#sidebar .network {
+    margin-bottom: 10px;
+}
+#sidebar .chan {
+    margin-right: 20px;
+    padding: 2px 5px 4px 5px;
+    width: auto;
+    border-bottom: #d65a61 1px solid;
+}
+#sidebar .chan:before {
+    display: none;
+}
+#sidebar .chan .badge {
+    margin-top: -1px;
+    right: 5px !important;
+}
+#sidebar .chan .close {
+    top: 2px; right: -5px;
+}
+
+
+
+BACKGROUND #3f3f3f
+INPUT BACKGROUND #434443
+PRIMARY #dcdccc
+SECONDARY #F17C7B
+BORDERS #333333
+QUIT #bc6c4c
+*/
+
+body {
+	background: #1c1c1c;
+}
+
+#main,
+#chat .sidebar,
+#windows .chan,
+#windows .window {
+	background: #1c1c1c;
+}
+
+#main #chat,
+#main #form,
+#form .input,
+#chat,
+#windows .header {
+	font-family: "Open Sans", sans-serif !important;
+	font-size: 13px;
+}
+
+#settings,
+#sign-in,
+#connect {
+	color: #dcdccc;
+}
+
+#settings,
+#sign-in,
+#connect .title {
+	color: #a83334;
+}
+
+#settings,
+#sign-in,
+#connect .opt {
+	color: #dcdccc;
+}
+
+#sidebar {
+	background: #222222;
+	border-right: 1px solid #333;
+	bottom: 48px;
+}
+
+#sidebar .chan .name:after {
+        background: #222;
+}
+
+#footer {
+	background: #222222;
+	border-top: 1px solid #333;
+	border-right: 1px solid #333;
+}
+
+#chat .count {
+	background-color: #222;
+	color: #fff;
+}
+
+#chat .search {
+	color: #fff;
+	padding: 15px 16px;
+}
+
+#chat .search::-webkit-input-placeholder {
+	color: #fff;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+    opacity: 0.8;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+       color:    #fff;
+          opacity:  0.8;
+	  }
+	  ::-moz-placeholder { /* Mozilla Firefox 19+ */
+	     color:    #fff;
+	        opacity:  0.8;
+		}
+		:-ms-input-placeholder { /* Internet Explorer 10-11 */
+		   color:    #fff;
+		   opacity: 0.8;
+		   }
+
+
+/* Borders */
+#windows .header,
+#chat .user-mode:before,
+#chat .sidebar {
+	border-color: #333;
+	background: #222;
+}
+
+#sidebar .chan:first-child {
+    color: #c6c6c6;
+}
+
+#sidebar .chan:first-child:hover {
+    color: #fff;
+}
+.irc-fg3 {
+    color: #D65A61;
+}
+
+/* Attach chat to window borders */
+#windows .window:before,
+#windows .chan:before {
+	display: none;
+}
+
+#footer {
+	left: 0;
+	bottom: 0;
+	width: 220px;
+}
+
+#main {
+	top: 0;
+	bottom: 0;
+	right: 0;
+	border-radius: 0;
+}
+
+#chat .chat,
+#chat .sidebar {
+	top: 48px;
+}
+
+/* User list */
+#chat .user-mode {
+	color: #dcdccc;
+}
+
+/* Nicknames */
+#chat.no-colors .from button,
+#chat.no-colors .sidebar button {
+	color: #D65A61 !important;
+}
+
+#chat.no-colors .from button:hover,
+#chat.no-colors .sidebar button:hover {
+	color: #dcdccc !important;
+}
+
+#chat a {
+	color: #D65A61;
+}
+
+#chat button:hover {
+	opacity: 1;
+}
+
+/* Message form */
+#form {
+	background: #222;
+	border-color: #222;
+	border-top: 1px solid #333;
+}
+
+#form #input {
+	background-color: #222;
+	border-color: #333;
+	color: #dcdccc;
+}
+
+#form #nick {
+	background: #101010;
+	color: #dcdccc;
+}
+
+#form #submit:hover {
+	opacity: 1;
+}
+
+/* Buttons */
+#chat .show-more-button {
+	background: #434443;
+	border-color: #101010;
+	color: #dcdccc;
+}
+
+#chat .show-more-button:hover {
+	color: #fff;
+}
+
+#chat .header {
+	color: #F17C7B;
+}
+
+/* Setup text colors */
+#chat .msg {
+	color: #ffcfaf;
+}
+
+#chat .message {
+	color: #dcdccc;
+}
+
+#chat .self .text {
+	color: #F17C7B;
+}
+
+#chat .error,
+#chat .error .from,
+#chat .highlight,
+#chat .highlight .from {
+	color: #bc6c4c;
+}
+
+#chat .msg.quit .time,
+#chat .msg.quit .from button {
+	color: #bc6c9c !important;
+}
+
+#chat .msg.topic {
+	color: #dcdccc;
+}
+
+#chat .msg.join .time,
+#chat .msg.join .from button {
+	color: #8cd0d3 !important;
+}
+
+/* Embeds */
+#chat .toggle-content,
+#chat .toggle-button {
+	background: #93b3a3;
+	color: #dcdccc;
+}
+
+#chat .toggle-content img {
+	float: left;
+	margin-right: .5em;
+}
+
+#chat .toggle-content .body {
+	color: #F17C7B;
+}
+
+@media (max-width: 768px) {
+	#main {
+		left: 0;
+	}
+	#footer {
+		left: -220px;
+		width: 225px;
+	}
+}
+
+#chat.no-colors .from .user {
+    color: #ff948b !important;
+}
+
+#chat.no-colors .sidebar .user {
+    color: #ff948b !important;
+}
+.close {
+    display:none;
+}
