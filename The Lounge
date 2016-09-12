@@ -4,6 +4,7 @@
     height: 400px;
 }
 
+/* CSS */
 BACKGROUND #3f3f3f
 INPUT BACKGROUND #434443
 PRIMARY #dcdccc
