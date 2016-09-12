@@ -4,7 +4,31 @@
     height: 400px;
 }
 
-/* CSS */
+/* Compact sidebar */
+#sidebar .networks {
+    padding: 6px 2px 6px 30px;
+}
+#sidebar .network {
+    margin-bottom: 10px;
+}
+#sidebar .chan {
+    margin-right: 20px;
+    padding: 2px 5px 4px 5px;
+    width: auto;
+    border-bottom: #d65a61 1px solid;
+}
+#sidebar .chan:before {
+    display: none;
+}
+#sidebar .chan .badge {
+    margin-top: -1px;
+    right: 5px !important;
+}
+#sidebar .chan .close {
+    top: 2px; right: -5px;
+}
+
+/* Main CSS */
 BACKGROUND #3f3f3f
 INPUT BACKGROUND #434443
 PRIMARY #dcdccc
