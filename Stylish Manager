@@ -1,0 +1,284 @@
+body {
+    background: #1c1c1c;
+    color: #d65a61;
+}
+.CodeMirror {
+    -moz-box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.35) !important;
+    -webkit-box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.35) !important;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.35) !important;
+    background: #272727 !important;
+    color: #8F938F !important;
+    line-height: 1.4em !important;
+    font-size: 13px !important;
+    height: 70%;
+    outline: transparent !important;
+    border: 1px solid #505050 !important;
+}
+.CodeMirror .cm-keyword {
+    color: #cda869
+}
+.CodeMirror .cm-atom {
+    color: #cf7ea9
+}
+.CodeMirror .cm-number {
+    color: #78cf8a
+}
+.CodeMirror .cm-def {
+    color: #aac6e3
+}
+.CodeMirror .cm-variable {
+    color: #ffb795
+}
+.CodeMirror .cm-property,
+.CodeMirror .cm-variable-2 {
+    color: #eed1b3
+}
+.CodeMirror .cm-variable-3 {
+    color: #faded3
+}
+.CodeMirror .cm-operator {
+    color: #fa8d6a
+}
+.CodeMirror .cm-comment {
+    color: #555;
+    font-style: italic
+}
+.CodeMirror .cm-string {
+    color: #8f9d6a
+}
+.CodeMirror .cm-string-2 {
+    color: #9d937c
+}
+.CodeMirror .cm-meta {
+    color: #d2a8a1
+}
+.CodeMirror .cm-qualifier {
+    color: #ff0
+}
+.CodeMirror .cm-builtin {
+    color: #99c
+}
+.CodeMirror .cm-bracket,
+.CodeMirror .cm-quote {
+    color: #24c2c7
+}
+.CodeMirror .cm-tag {
+    color: #fee4ff
+}
+.CodeMirror .cm-attribute {
+    color: #9b859d
+}
+.CodeMirror .cm-header {
+    color: blue
+}
+.CodeMirror .cm-hr {
+    color: pink
+}
+.CodeMirror .cm-link {
+    color: #f4c20b
+}
+.CodeMirror .cm-special {
+    color: #ff9d00
+}
+.CodeMirror .cm-error {
+    color: #af2018
+}
+.CodeMirror .CodeMirror-matchingbracket {
+    color: #0f0
+}
+.CodeMirror .CodeMirror-nonmatchingbracket {
+    color: #f22
+}
+.CodeMirror .CodeMirror-selected {
+    background: rgba(255, 255, 255, .15)
+}
+.CodeMirror-focused .CodeMirror-selected,
+.CodeMirror::-moz-selection,
+.CodeMirror::selection {
+    background: rgba(255, 255, 255, .10)
+}
+.CodeMirror .CodeMirror-gutters {
+    background-color: #202020;
+    border-right: 1px solid #333;
+    box-shadow: none;
+}
+.CodeMirror .CodeMirror-linenumber {
+    color: #666;
+    padding: 0 0 0 5px;
+    text-shadow: none;
+}
+.CodeMirror .CodeMirror-guttermarker {
+    color: #aaa;
+}
+.CodeMirror .CodeMirror-guttermarker-subtle {
+    color: #666;
+}
+.CodeMirror .CodeMirror-lines .CodeMirror-cursor {
+    border-left: 1px solid #7991e8
+}
+.CodeMirror .CodeMirror-activeline-background {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, .031)
+}
+#header {
+    border-right: 1px dashed #505050;
+    -webkit-box-shadow: none !important;
+}
+#basic-info {
+    overflow: hidden;
+}
+#basic-info-enabled {
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+}
+#actions > * {
+    border-bottom: 1px dashed #505050;
+    padding-bottom: 20px;
+}
+a,
+a:visited {
+    -webkit-transition: color 0.5s;
+    color: #1a87b9
+}
+button {
+    background: #C55044;
+    border: none !important;
+    color: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    outline: transparent !important;
+}
+body.dirty #save-button {
+    background: #228E8B !important;
+}
+#help-popup {
+    background-color: #505050;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.15), 0 15px 12px rgba(0, 0, 0, 0.1);
+}
+#help-popup .close-icon {
+    background: linear-gradient(-45deg, transparent 5px, white 5px, white 6px, transparent 6.5px) no-repeat, linear-gradient(45deg, transparent 5px, white 5px, white 6px, transparent 6.5px) no-repeat;
+}
+input[type=checkbox] {
+    -webkit-appearance: textfield;
+    background-color: #A2A2A2;
+    border: 1px solid transparent;
+    border-radius: 100%;
+    color: #fff;
+    cursor: auto;
+    display: block;
+    padding: 9px;
+    position: relative;
+    outline: transparent !important;
+    width: 20px;
+    height: 20px;
+    float: left;
+    clear: both;
+}
+input[type=checkbox]:checked {
+    background-color: #FFFFFF;
+    border: 1px solid transparent;
+    color: #FFFFFF;
+}
+input[type=checkbox]:checked:after {
+    color: #2D2D2D;
+    content: '\2716';
+    font-size: 16px;
+    left: 3px;
+    position: absolute;
+    top: 0
+}
+#enabled-label,
+.option label {
+    padding: 7px 0 7px 3px;
+    float: left;
+    display: block;
+}
+#options .option > * {
+    padding-right: 0.52rem
+}
+.option.aligned label {
+    margin-top: 10px;
+}
+.option.aligned input {
+    margin-top: 6px;
+}
+#options [type="number"] {
+    outline: transparent !important;
+}
+.option select {
+    background-color: transparent;
+    border: 2px solid #505050;
+    color: white;
+    font-size: 13px;
+    height: 28px;
+    margin-top: 10px;
+    outline: transparent !important;
+}
+.applies-to-list select {
+    background-color: transparent;
+    border: 2px solid #505050;
+    color: white;
+    font-size: 13px;
+    height: 28px;
+    outline: transparent !important;
+}
+input {
+    background: transparent;
+    border: solid 2px #505050;
+    border-radius: 5px;
+    color: #fff;
+    padding: 8px 10px;
+    font-size: 13px;
+    outline: transparent !important;
+}
+.applies-to li .applies-value {
+    padding-left: 10px;
+}
+.applies-to-list button {
+    margin-left: 5px;
+}
+#basic-info-name a img,
+h2#mozilla-format-heading img,
+img[src="help.png"] {
+    display: none;
+}
+#basic-info-name a::after {
+    content: '\1F310';
+    font-size: 18px;
+    display: inline-block;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+#sections > div {
+    margin: 0;
+    padding: 1rem 1rem 1rem 0.5rem;
+}
+::-webkit-scrollbar {
+    height: 10px;
+    width: 10px
+}
+::-webkit-scrollbar-track {
+    background: transparent
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, .2);
+    border-radius: 5px
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, .3)
+}
+::-webkit-scrollbar-thumb:active {
+    background: rgba(255, 255, 255, .4)
+}
+#save-button:after {
+    transition: background-color 1s ease;
+    content: 'd';
+}
+body.dirty #save-button {
+    transition: background-color 1s ease;
+}
+body.dirty #save-button:after {
+    transition: background-color 1s ease;
+    content: '?';
+}
