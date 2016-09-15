@@ -163,8 +163,8 @@ a.fl:link, .fl a, .flt, a.flt, .gl a:link, a.mblink, .mblink b,#foot #navcnt a,a
 }
 /* Strong Blue links #54A6F8 */
 #hdtb-msb .hdtb-mitem.hdtb-msel, #hdtb-msb .hdtb-mitem.hdtb-msel-pre {
-    border-bottom: 3px solid #54A6F8!important;
-    color: #54A6F8!important;
+    border-bottom: 3px solid #d65a61!important;
+    color: #d65a61!important;
 }
 #foot #navcnt .cur {
     color: #fff!important;
