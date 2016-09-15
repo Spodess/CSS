@@ -1,0 +1,56 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+body {
+		background-color: rgb(35, 35, 35);
+	}
+
+	.nav-content {
+		background-color: rgb(45, 45, 45);
+	}
+
+	.nav-content-item a:hover {
+		color: white;
+		text-shadow: 1px 1px 2px rgb(226, 226, 226);
+	}
+
+	.usage-note {
+		background-color: rgb(45, 45, 45);
+	}
+
+	.card {
+		color: rgb(226, 226, 226);
+		background-color: rgb(53, 53, 53);
+		border: 1px solid rgb(176, 176, 176);
+	}
+
+	.nav-content-item.nav-active a, .nav-content-item > a:active a, .nav-content-item > a:hover a {
+		color: rgb(230, 230, 230);
+	}
+
+	span.conj-irregular {
+		color: rgb(245, 0, 0);
+	}
+
+	.conj-match {
+		background-color: rgb(42, 42, 42);
+	}
+
+	.vtable {
+		border-color: rgb(170, 170, 170);
+	}
+
+	.vtable tr:hover {
+		background-color: #222;
+	}
+
+	a.vtable-title-link {
+		color: rgb(240, 240, 240);
+	}
+
+	.input-table-table td table td button {
+		color: rgb(226, 226, 226);
+		background-color: #222;
+	}
+
+	.input-table-table td table td button:hover {
+		background-color: #444;
+	}
