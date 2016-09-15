@@ -138,7 +138,7 @@ body {
 a,
 a:visited {
     -webkit-transition: color 0.5s;
-    color: #1a87b9
+    color: #FFFFFF
 }
 button {
     background: #C55044;
