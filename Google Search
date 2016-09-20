@@ -1,9 +1,4 @@
-/* 
- * Name:    DarkSearch for Google
- * Author:  Nass O
- * Version: 30052016.01
- */
- 
+
 /* Background */
 html,body,#cnt,.rg_l,#botabar {
 background: #101010 !important;
