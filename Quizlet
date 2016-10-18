@@ -1,0 +1,75 @@
+.SiteHeader {
+    background: #1c1c1c;
+    color: #fff;
+    height: 5rem;
+    position: relative;
+    z-index: 1001;
+}
+.site,
+.page {
+    background: #1c1c1c;
+}
+.UIButton {
+    background: #1c1c1c;
+}
+.SiteHeader-searchInner {
+    border-right: 2px solid #d65a61;
+    padding-right: 2rem;
+}
+.tabs-bar {
+    background: linear-gradient(to bottom, #2d2c2c, #2d2c2c);
+    box-shadow: inset 0 1px 0 #2d2c2c, inset 0 -1px 0 #d1cdc7;
+    line-height: 42px;
+    margin: 0;
+    position: relative;
+}
+.SetHeader {
+    background: #393737;
+    padding: 5px 0 0 0;
+}
+.terms-tab .tabs-bar .terms-tab a,
+.scores-tab .tabs-bar .scores-tab a,
+.info-tab .tabs-bar .info-tab a,
+.class-progress-tab .tabs-bar .class-progress-tab a,
+.sets-tab .tabs-bar .sets-tab a,
+.members-tab .tabs-bar .members-tab a,
+.invite-tab .tabs-bar .invite-tab a,
+.created-tab .tabs-bar .created-tab a,
+.studied-tab .tabs-bar .studied-tab a,
+.folders-tab .tabs-bar .folders-tab a,
+.classes-tab .tabs-bar .classes-tab a,
+.admin-tab .tabs-bar .admin-tab a,
+.general-tab .tabs-bar .general-tab a {
+    background: #d65a61;
+    color: #FFFFFF;
+}
+.recent .segmented-control a.order-recent,
+.alphabetical .segmented-control a.order-alphabetical,
+.order-alphabetical .segmented-control a.order-alphabetical,
+.order-missed .segmented-control a.order-missed,
+.order-original .segmented-control a.order-original,
+.order-students .segmented-control a.order-students {
+    background: #D65A61;
+    color: #FFFFFF;
+}
+.SiteFooter {
+    background: #1c1c1c;
+    color: #fff;
+    clear: left;
+    padding: 3.75rem 0;
+}
+.UIButton--inverted:visited {
+    background-color: #393737;
+    box-shadow: inset 0 0 0 3px #393737;
+    color: #fff;
+}
+.UIButton--inverted:visited {
+    background-color: #393737;
+    box-shadow: inset 0 0 0 3px #393737;
+    color: #fff;
+}
+.UIButton--inverted:visited {
+    background-color: #393737;
+    box-shadow: inset 0 0 0 3px #393737;
+    color: #fff;
+}
