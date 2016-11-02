@@ -1,0 +1,21 @@
+body {
+    color: #d65a61;
+    background: none !important;
+    background: #1c1c1c !important;
+}
+a {
+    color: #d65a61;
+}
+a:-webkit-any-link {
+    color: #d65a61;
+}
+.jumbotron .btn {
+    background: #d65a61;
+    border: #d65a61;
+    color: #1c1c1c;
+    transition: background-color .25s, width .5s, height .5s;
+}
+nav>ul,
+nav a {
+    color: #d65a61;
+}
