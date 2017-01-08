@@ -38,6 +38,9 @@ body {
     color: #dcdccc !important;
     text-decoration: none;
 }
+.nav-item.is-active, .nav-item:focus, .nav-item:hover {
+    color: #d65a61 !important;
+}
 .white\:hover:hover, .white\:hover:focus, .white-hover:hover, .white-hover:focus, .white {
     color: #dcdccc !important;
 }
@@ -136,7 +139,7 @@ body {
     background-color: #323232 !important;
 }
 a:-webkit-any-link {
-    color: #dcdccc !important;
+    color: #dcdccc;
     text-decoration: none;
     cursor: auto;
 }
