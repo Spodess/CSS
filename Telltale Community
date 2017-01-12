@@ -6,7 +6,7 @@
     background: #1c1c1c !important;
 }
 a {
-    color: #d65a61;
+    color: #dcdccc !important;
     text-decoration: none;
 }
 .button--primary, .button--red {
@@ -169,4 +169,17 @@ a:-webkit-any-link {
 }
 .flag-submission {
     background: #1c1c1c;
+}
+.label {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #dcdccc !important;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    background-color: #d65a61 !important;
 }
