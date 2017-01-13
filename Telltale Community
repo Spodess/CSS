@@ -20,6 +20,7 @@ a {
     border: 2px solid rgb(66,66,66);
     padding: .25rem;
 }
+/*WEW LAD HERE ----------------------------*/
 .discussions-list .item.announcement {
     background-color: #292929 !important;
 }
@@ -29,7 +30,6 @@ body {
 }
 .relative {
     position: relative;
-    background: #323232 !important;
 }
 .bg-white--transparent {
     background: #323232  !important;
@@ -41,6 +41,7 @@ body {
 .nav-item.is-active, .nav-item:focus, .nav-item:hover {
     color: #d65a61 !important;
 }
+/*WEWL LAD HERE -----------------------------------------------*/
 .white\:hover:hover, .white\:hover:focus, .white-hover:hover, .white-hover:focus, .white {
     color: #dcdccc !important;
 }
@@ -99,6 +100,13 @@ body {
     border: solid 2px #d65a61 !important;
     -webkit-box-shadow: 0 0 5px #d65a61 !important;
     box-shadow: 0 0 5px #d65a61 !important;
+}
+.item-comment.new.active {
+    -moz-animation: newpulse 1.5s infinite;
+    -webkit-animation: newpulse 1.5s infinite;
+    animation: newpulse 1.5s infinite;
+    -webkit-box-shadow: 0 0 10px #d65a61 !important;
+    box-shadow: 0 0 10px #d65a61 !important;
 }
 .bg-light-gray {
     background-color: #323232  !important;
@@ -181,5 +189,14 @@ a:-webkit-any-link {
     white-space: nowrap;
     vertical-align: baseline;
     border-radius: .25rem;
+    background-color: #d65a61 !important;
+}
+.bg-gray {
+    background-color: #323232 !important;
+}
+.bg-red-hover:hover, .bg-red-hover:focus, .bg-red {
+    background-color: #323232;
+}
+.bg-blue {
     background-color: #d65a61 !important;
 }
