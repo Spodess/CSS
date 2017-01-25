@@ -1,5 +1,5 @@
 body {
-    color: #d65a61;
+    color: #d65a61 !important;
     background: none !important;
     background: #1c1c1c !important;
 }
@@ -10,12 +10,26 @@ a:-webkit-any-link {
     color: #d65a61;
 }
 .jumbotron .btn {
-    background: #d65a61;
-    border: #d65a61;
+    background: #d65a61 !important;
+    border: #d65a61 !important;
     color: #1c1c1c;
     transition: background-color .25s, width .5s, height .5s;
 }
 nav>ul,
 nav a {
     color: #d65a61;
+}
+.alert-error {
+    background-color: transparent;
+    border-color: #dcdccc !important;
+    color: #d65a61 !important;
+}
+.alert {
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 8px 14px;
+    text-shadow: none;
+    transition: width .5s,margin .5s,padding .5s,background-color .5s;
 }
