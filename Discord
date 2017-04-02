@@ -36,11 +36,7 @@
 .theme-dark .channel-members {
     background-color: #222222 !important;
     border-left: 1px solid #333 !important;
-    }
-    
-    .channel-members-wrap {
-    }
-    
+    }    
 .guild-channels ul .channel-text.selected {
     background: #222222 !important;
     }
@@ -245,4 +241,98 @@
 #friends {
     background-color: #191919 !important;
     }
+.guilds-wrapper .guilds .guild .guild-inner {
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 25px;
+    background: #191919;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+}
+.mention {
+    color: #d65a61 !important;
+    background: #323232 !important;
+    font-weight: 600;
+    -webkit-transition: background-color .05s,color .05s;
+    transition: background-color .05s,color .05s;
+}
+.settings .settings-inner, .settings .settings-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background-color: #191919 !important;
+}
+.settings .settings-header {
+    border-radius: 5px 0 0 5px;
+    background-color: #222222;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0 1px 0 rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+    box-sizing: border-box;
+    width: 190px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+.tab-bar.SIDE .tab-bar-item:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    content: " ";
+    border-left: 4px solid #d65a61;
+    opacity: 0;
+}
+.change-log-button-container .change-log-button {
+    display: block;
+    color: #d65a61 !important;
+    font-size: 12px;
+    padding: 8px 6px 10px 20px;
+    opacity: .7;
+    -webkit-transition: opacity .2s ease;
+    transition: opacity .2s ease;
+}
+.scroller-wrap .scroller::-webkit-scrollbar-thumb, .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    background-color: #d65a61;
+    background-clip: padding-box;
+    border: 3px solid #222222;
+    border-radius: 7px;
+}
+.user-settings-modal a {
+    color: #d65a61 !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+.form .control-group label a {
+    color: #d65a61 !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+.settings .settings-actions {
+    background-color: #222222;
+    border-top: 1px solid #1c1c1c;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 18px 40px;
+    border-radius: 0 0 5px 0;
+    text-align: right;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+.form .btn-primary {
+    border-radius: 3px;
+    background-color: #1c1c1c;
+    color: #d65a61;
+}
+.popout-menu {
+    background: #1c1c1c;
+    box-shadow: 0 2px 10 0 rgba(214, 90, 97, 1);
+    border-radius: 5px;
+    overflow: hidden;
+    width: 216px;
 }
