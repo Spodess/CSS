@@ -817,3 +817,6 @@
     text-decoration: none;
     cursor: pointer;
 }
+.theme-dark .message-group a {
+    color: #d65a61;
+}
