@@ -854,3 +854,7 @@
 .guild-channels .channel-text.selected {
     background: linear-gradient(to right,#1c1c1c 85%,#1c1c1c);
 }
+.emoji-picker .scroller .emoji-item.selected {
+    background-color: #1c1c1c;
+    border-radius: 3px;
+}
