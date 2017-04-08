@@ -858,3 +858,6 @@
     background-color: #1c1c1c;
     border-radius: 3px;
 }
+.diversity-selector .popout {
+    background: #1c1c1c;
+}
