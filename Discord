@@ -861,3 +861,83 @@
 .diversity-selector .popout {
     background: #1c1c1c;
 }
+.form .form-header {
+    padding: 0 40px;
+    color: #fff;
+    background: #222222;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid #222222;
+}
+.form .form-actions {
+    background-color: #222222;
+    border-top: 1px solid #222222;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 18px 40px;
+    border-radius: 0 0 5px 5px;
+    text-align: right;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+.guild-settings-modal-integrations .integration {
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 2px solid transparent;
+    background-color: #222222;
+}
+.guild-settings-modal-members {
+    background-color: #222222;
+}
+.guild-settings-modal .emoji-row .btn, .guild-settings-modal .member-buttons .btn {
+    background: #222222;
+	border: 1px solid #d65a61;
+}
+#permissions .permissions-helpdesk {
+    color: #d65a61;
+}
+#settings-roles .roles li.selected {
+    background: -webkit-linear-gradient(left,#222222,#222222);
+    background: linear-gradient(to right,#222222,#222222);
+}
+#settings-roles .roles li.selected:before {
+    color: #d65a61;
+    background-color: #d65a61;
+}
+.clipboard-input-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.clipboard-input-inner button {
+    border-left: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    background-color: #222222;
+    background-size: 16px 16px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #fff;
+}
+input {
+    background-color: #1c1c1c;
+}
+.clipboard-input-inner button:first-of-type:before {
+    pointer-events: none;
+    width: 30px;
+    position: absolute;
+    top: 0;
+    left: -31px;
+    height: 100%;
+    background: -webkit-linear-gradient(left,hsla(0,0%,100%,0),#1c1c1c);
+    background: linear-gradient(to right,hsla(0,0%,100%,0),#1c1c1c);
+    content: " ";
+}
+.form .btn.green {
+    background-color: #222222;
+}
