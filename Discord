@@ -941,3 +941,27 @@ input {
 .form .btn.green {
     background-color: #222222;
 }
+.popout section {
+    background-color: #222222;
+}
+.popout header {
+    background-color: #1c1c1c;
+}
+.popout.popout-invert.popout-top-right header:before, .popout.popout-invert.popout-top header:before {
+    border-top-color: #1c1c1c;
+}
+.member-roles .member-role {
+    background-color: #222222;
+    border: 1px solid #dbdde1;
+}
+.chat .new-messages-bar button:last-child {
+    color: #fff;
+}
+.form .btn-default {
+    background-color: #1c1c1c;
+    border-bottom: 2px solid #d65a61;
+}
+.small-popout-box {
+    background: #222222;
+    border: 1px solid #d65a61;
+}
