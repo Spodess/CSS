@@ -978,3 +978,28 @@ input {
 .tooltip.tooltip-left:after {
     border-left-color: #d65a61;
 }
+#user-profile-modal .avatar-wrapper {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: #222222;
+}
+#user-profile-modal .header {
+    background-color: #1c1c1c;
+    background-image: none;
+    background-size: 100%;
+}
+#user-profile-modal .tab-bar-container {
+    background-color: #1c1c1c;
+    border-bottom: 1px solid #1c1c1c;
+}
+#user-profile-modal .tab-bar .tab-bar-item.selected {
+    border-bottom-color: #d65a61;
+    color: #fff;
+}
+#user-profile-modal .scroller {
+    background: #222222;
+}
+.context-menu {
+    background: #222222;
+}
