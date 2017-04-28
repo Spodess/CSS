@@ -1045,3 +1045,19 @@ input {
     background-image: -webkit-linear-gradient(top,rgba(46,49,54,0),#222222);
     background-image: linear-gradient(180deg,rgba(46,49,54,0) 0,#222222 100%);
 }
+.badge {
+    background-color: #d65a61;
+}
+#rtc-connection {
+    background: #222222;
+    border-top: 1px solid #3e3e3e;
+}
+.account {
+    border-top: 1px solid #3e3e3e;
+}
+#rtc-connection .btn-info {
+    border-right: 1px solid #222222;
+}
+#rtc-connection .btn {
+    background: #1c1c1c;
+}
