@@ -1061,3 +1061,10 @@ input {
 #rtc-connection .btn {
     background: #1c1c1c;
 }
+#friends .friends-table .friends-row .friends-column-guilds .avatar-small {
+    background-color: #1c1c1c;
+    color: #fff;
+}
+.message-group-blocked {
+    display: none !important;    
+}
