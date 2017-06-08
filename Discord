@@ -1068,3 +1068,12 @@ input {
 .message-group-blocked {
     display: none !important;    
 }
+.channels-wrap {
+    background-color: #222222;
+}
+.container-RYiLUQ {
+    background-color: #222222;
+}
+.contentSelectedText-3j5CXt {
+    background-color: #1c1c1c;
+}
