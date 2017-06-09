@@ -41,16 +41,16 @@
     background: #222222 !important;
     }
 .theme-dark .chat > .content .messages .divider.divider-red > div {
-    background: #D65A61 !important;
+    background: #3e3e3e !important;
 	}
 .theme-dark .chat > .content .messages .divider.divider-red > span {
-    color: #D65A61 !important;
+    color: #3e3e3e !important;
 	}
 .theme-dark .chat > .content .messages .divider span {
     background-color: #191919 !important;
 	}
 .chat .new-messages-bar {
-    background-color: #D65A61 !important;
+    background-color: #3e3e3e !important;
 	}
 .theme-dark .chat > .content :first-child .scroller-wrap.polyfill .scrollbar, .theme-dark .chat > .content :first-child .scroller-wrap.polyfill .scrollbar::after {
     background-color: #191919 !important;
@@ -126,7 +126,7 @@
 	border-left:4px solid #D65A61 !important;
     }
 .theme-dark .channel-members .member.popout-open,.theme-dark .channel-members .member:hover {
-	background: #D65A61 !important;
+	background: #1c1c1c !important;
     }
 .theme-dark .channel-members .member.popout-open .member-username,.theme-dark .channel-members .member:hover .member-username {
 	color:#fff !important;
@@ -171,7 +171,7 @@
     background: #222222 !important;
     }
 .private-channels .channel:hover {
-	background: #D65A61 !important;
+	background: #1c1c1c !important;
     }
 .private-channels .search-result.selected,.private-channels .search-result:hover {
 	background: #D65A61 !important;
@@ -822,16 +822,16 @@
     color: #d65a61;
 }
 .tooltip {
-    background-color: #d65a61;
+    background-color: #3e3e3e;
 }
 .tooltip.tooltip-bottom:after {
-    border-bottom-color: #d65a61;
+    border-bottom-color: #3e3e3e;
 }
 .tooltip.tooltip-right:after {
-    border-right-color: #d65a61;
+    border-right-color: #3e3e3e;
 }
 .tooltip.tooltip-top:after {
-    border-top-color: #d65a61;
+    border-top-color: #3e3e3e;
 }
 .theme-dark .reaction.reaction-me {
     background: #222222;
@@ -976,7 +976,7 @@ input {
     box-shadow: 0 2px 10px 0 rgba(0,0,0,.5);
 }
 .tooltip.tooltip-left:after {
-    border-left-color: #d65a61;
+    border-left-color: #3e3e3e;
 }
 #user-profile-modal .avatar-wrapper {
     position: absolute;
@@ -1076,4 +1076,56 @@ input {
 }
 .contentSelectedText-3j5CXt {
     background-color: #1c1c1c;
+}
+.private-channels .channel.selected a {
+    background-color: #222222;
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary {
+    background-color: #d65a61;
+    color: #fff;
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected {
+    background-color: #d65a61;
+    color: #fff;
+}
+.theme-dark .chat .has-more button {
+    background: #3e3e3e;
+    border: 1px solid #1c1c1c;
+}
+.chat .has-more button {
+    background: #fcfcfc;
+    color: #fff;
+}
+.theme-dark .layer, .theme-dark .layers {
+    background: #1c1c1c;
+}
+.theme-dark .ui-standard-sidebar-view .sidebar-region {
+    background: #1c1c1c;
+}
+.theme-dark .ui-standard-sidebar-view .content-region {
+    background: #222222;
+}
+.ui-tab-bar.SIDE .ui-tab-bar-item.selected, .ui-tab-bar.SIDE .ui-tab-bar-item:active {
+    color: #fff;
+    background-color: #3e3e3e;
+}
+.ui-switch-checkbox:checked+.ui-switch {
+    background: #1c1c1c;
+}
+.buttonBrandFilled-3Mv0Ra {
+    color: #fff;
+    background-color: #1c1c1c;
+}
+.ui-tab-bar.SIDE .ui-tab-bar-item.brand {
+    color: #d65a61
+}
+.buttonGreenFilled-6QHNrw {
+    color: #fff;
+    background-color: #1c1c1c
+}
+.ui-slider .slider-bar-fill {
+    background: #3e3e3e
+}
+.app a, .connecting a {
+    color: #d65a61;
 }
