@@ -1137,3 +1137,6 @@ input {
     pointer-events: auto;
     background-color: hsla(0, 2%, 7%, 0.72);
 }
+.theme-dark .ui-scroller-themed.ui-scroller-light.ui-scroller-track>.scroller::-webkit-scrollbar-track, .theme-light .ui-scroller-wrap.ui-scroller-track>.scroller::-webkit-scrollbar-track, .ui-scroller-themed.ui-scroller-light.ui-scroller-track>.scroller::-webkit-scrollbar-track {
+    background-color: #1c1c1c;
+}
