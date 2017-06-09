@@ -1133,3 +1133,7 @@ input {
     color: #72767d;
     background-color: #1c1c1c;
 }
+.emoji-picker .dimmer.visible {
+    pointer-events: auto;
+    background-color: hsla(0, 2%, 7%, 0.72);
+}
