@@ -71,12 +71,6 @@
     background-color: #222222 !important;
     }
 .scroller-wrap.dark .scrollbar .thumb::after {
-    background-color: #d65a61 !important;
-    }
-.theme-dark .chat > .content .scroller-wrap.polyfill .scrollbar, .theme-dark .chat > .content .scroller-wrap.polyfill .scrollbar .thumb, .theme-dark .chat > .content .scroller-wrap.polyfill .scrollbar::after {
-    background-color: #222222 !important;
-    }
-.theme-dark .chat > .content .scroller-wrap.polyfill .scrollbar .thumb::after {
     background-color: #222222 !important;
     }
 .guilds-separator::after {
@@ -217,7 +211,7 @@
     border-right: 1px solid #333 !important;
     }
 .theme-dark .chat>.content :first-child .scroller-wrap ::-webkit-scrollbar-thumb {
-    background-color: #d65a61 !important;
+    background-color: #222222 !important;
     border-color: #191919 !important;
     }
 .theme-dark .chat>.content :first-child .scroller-wrap ::-webkit-scrollbar-track-piece {
