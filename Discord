@@ -1129,3 +1129,7 @@ input {
 .app a, .connecting a {
     color: #d65a61;
 }
+.wrapper-2ldvyE {
+    color: #72767d;
+    background-color: #1c1c1c;
+}
