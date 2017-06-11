@@ -1134,3 +1134,32 @@ input {
 .theme-dark .ui-scroller-themed.ui-scroller-light.ui-scroller-track>.scroller::-webkit-scrollbar-track, .theme-light .ui-scroller-wrap.ui-scroller-track>.scroller::-webkit-scrollbar-track, .ui-scroller-themed.ui-scroller-light.ui-scroller-track>.scroller::-webkit-scrollbar-track {
     background-color: #1c1c1c;
 }
+.theme-dark .search .DraftEditor-root {
+    color: #fff
+}
+.search-popout .results-group {
+    background: #222222
+}
+.search-popout .option:after {
+    background: #222222;
+}
+.search-popout .search-option .filter {
+    color: #d65a61;
+}
+.search-popout .search-query.selected {
+    background-color: #1c1c1c;
+}
+.search-popout .search-query {
+    color: #d65a61;
+    border-bottom: 1px solid #d65a61;
+}
+.search-popout .search-query .search-for strong {
+    color: #fff;
+}
+.search-popout .option .filter {
+    color: #d65a61;
+    margin-right: 4px;
+}
+.theme-dark .search-popout {
+    box-shadow: 0 2px 10px 0 #222222;
+}
