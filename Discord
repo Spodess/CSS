@@ -1167,3 +1167,6 @@ input {
     background: #3e3e3e;
     border-color: #1c1c1c;
 }
+::selection {
+  background: #3e3e3e;
+}
