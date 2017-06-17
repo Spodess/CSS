@@ -200,3 +200,6 @@ a:-webkit-any-link {
 .bg-blue {
     background-color: #d65a61 !important;
 }
+::selection {
+  background: #3e3e3e;
+}
