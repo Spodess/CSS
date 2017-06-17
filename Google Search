@@ -664,3 +664,6 @@ td[style="border-right: 1px solid #161616;width:50%;"], td[style="border-right:1
 .rllt__details, .vk_bk {
     color: #A6A6A6!important;
 }
+::selection {
+  background: #222222;
+}
