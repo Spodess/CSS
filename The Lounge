@@ -297,3 +297,6 @@ body {
 .close {
     display:none;
 }
+::selection {
+  background: #3e3e3e;
+}
