@@ -1170,3 +1170,9 @@ input {
 ::selection {
   background: #3e3e3e;
 }
+.message-group .mentioned .message-text:after {
+    border-left: 4px solid #d65a61;
+}
+.theme-dark .message-group .mentioned .message-text {
+    background: #222222;
+}
