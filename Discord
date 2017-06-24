@@ -1176,3 +1176,6 @@ input {
 .theme-dark .message-group .mentioned .message-text {
     background: #222222;
 }
+.avatar-uploader-inner {
+    background-color: #3e3e3e;
+}
