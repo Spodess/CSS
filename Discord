@@ -1179,3 +1179,21 @@ input {
 .avatar-uploader-inner {
     background-color: #3e3e3e;
 }
+.deprecated-settings-modal .settings-inner {
+    background-color: #1c1c1c;
+}
+.deprecated-settings-modal .settings-actions {
+    background-color: #222222;
+    border-top: 1px solid #3e3e3e;
+}
+.form.deprecated .btn-primary {
+    border-radius: 3px;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+.theme-dark .modal-3HOjGZ {
+    background-color: #222222;
+}
+.theme-dark .message-25xg43 {
+    background-color: #3e3e3e;
+}
