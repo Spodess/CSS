@@ -1229,3 +1229,59 @@ input {
     background-color: #222222 !important;
     border-left: 0px solid #1c1c1c !important;
 }
+.search-popout .option.selected {
+    background-color: #1c1c1c;
+}
+.search-popout .option.selected:after {
+    width: 60px;
+    background: #1c1c1c;
+}
+.contentHoveredText-2HYGIY, .contentHoveredVoice-3qGNKh:active, .contentSelectedVoice-gTtYM9:active {
+    background-color: #1c1c1c;
+}
+.popout-menu .popout-menu-item:hover {
+    background-color: #3e3e3e;
+    opacity: 1;
+    color: #737f8d;
+}
+.form.deprecated .form-header {
+    color: #7289da;
+    background: #1c1c1c;
+}
+.form.deprecated .form-inner {
+    background-color: #222222;
+    padding: 28px 40px 48px;
+}
+#instant-invite-modal .form-actions {
+    background-color: #1c1c1c;
+}
+#instant-invite-modal .form-header header {
+    color: #676666;
+}
+#instant-invite-modal .blurb {
+    color: #676666;
+}
+.clipboard-input-inner {
+    background: #fff;
+    border: 1px solid #3e3e3e;
+}
+#instant-invite-modal .clipboard-input-inner input {
+    color: #676666;
+}
+#instant-invite-modal .copy {
+    background-color: #1c1c1c;
+}
+.clipboard-input-inner button {
+    border-left: 1px solid #3e3e3e;
+}
+.itemDefaultSelected-1UAWLe {
+    color: #fff;
+    background-color: #3e3e3e;
+}
+.search-popout .option.selected:after {
+    width: 60px;
+    background: #1c1c1c;
+}
+.search-popout {
+    background-color: #1c1c1c;
+}
