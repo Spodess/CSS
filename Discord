@@ -1219,3 +1219,13 @@ input {
 .theme-dark .channel-textarea-autocomplete-inner ul li.active {
     background: #191919;
 }
+.theme-dark .message-group .comment .markup pre {
+    border-color: #3e3e3e;
+}
+.theme-dark .hljs {
+    color: #676262;
+}
+.theme-dark .channel-members {
+    background-color: #222222 !important;
+    border-left: 0px solid #1c1c1c !important;
+}
