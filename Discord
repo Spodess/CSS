@@ -1197,3 +1197,25 @@ input {
 .theme-dark .message-25xg43 {
     background-color: #3e3e3e;
 }
+.connecting {
+    background: #1c1c1c;
+}
+.theme-dark .channel-textarea-autocomplete-inner {
+    background-color: #222;
+    border-color: hsla(0,0%,100%,.2);
+}
+.theme-dark .channel-textarea-autocomplete-inner {
+    background-color: #1c1c1c;
+    border-color: #3e3e3e;
+}
+.theme-dark .channel-textarea-autocomplete-inner header {
+    border-bottom-color: #3e3e3e;
+    background-color: #222;
+    color: hsla(0,0%,100%,.5);
+}
+.channel-textarea-autocomplete-inner header strong {
+    color: #d65a61;
+}
+.theme-dark .channel-textarea-autocomplete-inner ul li.active {
+    background: #191919;
+}
