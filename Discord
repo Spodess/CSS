@@ -1285,3 +1285,16 @@ input {
 .search-popout {
     background-color: #1c1c1c;
 }
+.bot-tag {
+    background: #646464;
+}
+.bot-tag.bot-tag-invert {
+    background: #646464;
+    color: #fff!important;
+}
+.message-group .comment .attachment .upload>.filename {
+    color: #b1b1b1;
+}
+.progress .progress-bar {
+    background-color: #646464;
+}
