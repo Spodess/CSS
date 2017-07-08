@@ -1298,3 +1298,17 @@ input {
 .progress .progress-bar {
     background-color: #646464;
 }
+.keyboard-shortcuts-modal {
+    position: relative;
+    background-color: #222222;
+}
+.keyboard-shortcuts-modal .keyboard-shortcut-list .keybind-group .keybind-description {
+    color: #9e9e9e;
+}
+g {
+    fill: #9e9e9e;
+}
+.keybind-shortcut.dim span {
+    background-color: #222222;
+    color: #9e9e9e;
+}
