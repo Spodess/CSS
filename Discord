@@ -1305,3 +1305,7 @@ input {
 .embed-color-pill {
     background-color: #d65a61 !important;
 }
+.theme-dark .message-group .embed {
+    background-color: #222222;
+    border-color: #3e3e3e;
+}
