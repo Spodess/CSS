@@ -172,7 +172,7 @@
     }
 .highlight {
     color: hsla(0,0%,100%,.7);
-    background: #3e3e3e;
+    background: #d65a61;
     }
 .mentioned .highlight:hover {
 	color:#D65A61 !important;
