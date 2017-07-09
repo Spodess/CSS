@@ -1302,3 +1302,6 @@ input {
 .channel-notices .channel-notice.quickswitcher-notice {
     background: #222 url(/assets/8fdb69b7684b8e1ecb3fdde909daca41.svg) no-repeat center 35px;
 }
+.embed-color-pill {
+    background-color: #d65a61 !important;
+}
