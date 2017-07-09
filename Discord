@@ -1295,3 +1295,9 @@ input {
 .context-menu .item:hover {
     background: #1c1c1c;
 }
+.notice {
+    background-color: #3e3e3e;
+}
+.channel-notices .channel-notice.quickswitcher-notice {
+    background: #222 url(/assets/8fdb69b7684b8e1ecb3fdde909daca41.svg) no-repeat center 35px;
+}
