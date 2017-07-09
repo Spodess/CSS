@@ -495,6 +495,7 @@
 .need-help-modal.deprecated .header input[type=text] {
     background-color: #3e3e3e;
     box-shadow: 0 2px 1px #646464;
+    color: #9e9e9e;
 }
 .form .form-inner {
     background-color: #1c1c1c;
