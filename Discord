@@ -976,12 +976,21 @@ input {
     position: absolute;
     top: 40px;
     left: 40px;
-    background-color: #222222;
+    background-color: #1c1c1c;
+}
+#user-profile-modal .header .header-info .header-info-inner .discord-tag {
+    color: #9e9e9e;
+}
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator {
+	color: rgba(185, 181, 181, 0.3);
 }
 #user-profile-modal .header {
     background-color: #1c1c1c;
     background-image: none;
     background-size: 100%;
+}
+#user-profile-modal .header:after {
+    background-color: #1c1c1c;
 }
 #user-profile-modal .tab-bar-container {
     background-color: #1c1c1c;
