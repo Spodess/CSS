@@ -172,7 +172,7 @@
     }
 .highlight {
     color: #d65a61;
-    background: #1c1c1c;
+    background: #3e3e3e;
     }
 .mentioned .highlight:hover {
 	color:#D65A61 !important;
