@@ -1313,3 +1313,19 @@ textarea::selection {
     background: #3e3e3e;
     color: #8b8b8b;
 }
+.private-channels .channel:hover a {
+    background-color: #222222;
+}
+.theme-dark #friends .friends-table .friends-row:hover {
+    background: #222222;
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
+    background-color: #d65a61;
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected {
+    background-color: #d65a61;
+    color: #fff
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item:hover:not(.selected) {
+    background-color: #222222;
+}
