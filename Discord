@@ -1,3 +1,6 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain(discordapp.com) {
+
 .theme-dark .chat > .content {
     background-color: #191919 !important;
     margin-right: 0 !important;
@@ -1140,7 +1143,7 @@ input {
     background: #3e3e3e;
     border-color: #1c1c1c;
 }
-::-moz-selection {
+::selection {
   background: #3e3e3e;
 }
 .message-group .mentioned .message-text:after {
@@ -1305,7 +1308,7 @@ input {
     background-color: #222222;
     border-color: #3e3e3e;
 }
-textarea::-moz-selection {
+textarea::selection {
     background-color: #1c1c1c !important;
 }
 .quick-message {
@@ -1322,4 +1325,24 @@ textarea::-moz-selection {
 }
 .scrollbar-2so3Ly {
     background-color: #222 !important;
+}
+.thumb-3VsfAI {
+    background-color: #3e3e3e !important;
+}
+.private-channels .channel:hover a {
+    background-color: #222222;
+}
+.theme-dark #friends .friends-table .friends-row:hover {
+    background: #222222;
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
+    background-color: #d65a61;
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected {
+    background-color: #d65a61;
+    color: #fff
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item:hover:not(.selected) {
+    background-color: #222222;
+}
 }
