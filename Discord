@@ -1329,3 +1329,9 @@ textarea::selection {
 .theme-dark #friends .friends-header .tab-bar .tab-bar-item:hover:not(.selected) {
     background-color: #222222;
 }
+.empty {
+    background: #222222 !important;
+}
+.chat>.title-wrap>.topic .aka {
+    background: #3e3e3e;
+}
