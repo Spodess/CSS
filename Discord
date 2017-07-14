@@ -1335,3 +1335,9 @@ textarea::selection {
 .chat>.title-wrap>.topic .aka {
     background: #3e3e3e;
 }
+.theme-dark .scrollerThemed-19vinI.themeGhostHairline-2H8SiW .scroller-fzNley::-webkit-scrollbar-thumb {
+    background-color: #3e3e3e;
+}
+.scrollerThemed-19vinI.themeGhostHairlineChannels-2lQojW .scroller-fzNley::-webkit-scrollbar-thumb {
+    background-color: #3e3e3e;
+}
