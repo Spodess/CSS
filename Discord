@@ -389,7 +389,7 @@
 .mention
 {
 	color: #d65a61 !important;
-	background: #202020  !important;
+	background: #202020 !important;
 	font-weight: 600;
 	-webkit-transition: background-color .05s,color .05s;
 	transition: background-color .05s,color .05s;
@@ -446,17 +446,13 @@
 .scrollerThemed-19vinI.themeLight-1WK0Av .scroller-fzNley::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-19vinI.themeLight-1WK0Av .scroller-fzNley::-webkit-scrollbar-thumb, .theme-light .scrollerWrap-2uBjct .scroller-fzNley::-webkit-scrollbar-thumb
 {
 	background-color: #3e3e3e;
-    border-color: transparent;
+	border-color: transparent;
 }
 
 .scrollerThemed-19vinI.themeLight-1WK0Av.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-dark .scrollerThemed-19vinI.themeLight-1WK0Av.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-light .scrollerWrap-2uBjct.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track
 {
 	background-color: #222222;
 }
-
-.scrollerThemed-19vinI.themeLight-1WK0Av.scrollerTrack-3hhmU0 > .scrollbar-2so3Ly > .track-2Kex6E, .theme-dark .scrollerThemed-19vinI.themeLight-1WK0Av.scrollerTrack-3hhmU0 > .scrollbar-2so3Ly > .track-2Kex6E, .theme-light .scrollerWrap-2uBjct.scrollerTrack-3hhmU0 > .scrollbar-2so3Ly > .track-2Kex6E
-	{
-  }
 
 .scroller-wrap .scroller::-webkit-scrollbar-thumb, .scroller-wrap .scroller::-webkit-scrollbar-track-piece
 {
@@ -1978,7 +1974,7 @@ textarea::selection
 
 .thumb-3VsfAI
 {
-	background-color: #3e3e3e !important;
+	background-color: #191919 !important;
 }
 
 .theme-dark .scrollerThemed-19vinI.themeGhostHairline-2H8SiW .scroller-fzNley::-webkit-scrollbar-thumb
@@ -2009,12 +2005,6 @@ textarea::selection
 .theme-dark .friends-table .scroller-wrap.polyfill .scrollbar .thumb, .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar .thumb
 {
 	background-color: #191919;
-}
-
-.scrollerThemed-19vinI.themeLight-1WK0Av .scroller-fzNley::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-19vinI.themeLight-1WK0Av .scroller-fzNley::-webkit-scrollbar-thumb, .theme-light .scrollerWrap-2uBjct .scroller-fzNley::-webkit-scrollbar-thumb
-{
-	background-color: #3e3e3e;
-	border-color: transparent;
 }
 
 .scrollerThemed-19vinI.themeLight-1WK0Av.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-dark .scrollerThemed-19vinI.themeLight-1WK0Av.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-light .scrollerWrap-2uBjct.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track
