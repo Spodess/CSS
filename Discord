@@ -1336,7 +1336,7 @@ textarea::selection {
     background: #3e3e3e;
 }
 .theme-dark .scrollerThemed-19vinI.themeGhostHairline-2H8SiW .scroller-fzNley::-webkit-scrollbar-thumb {
-    background-color: #3e3e3e;
+    background-color: #1c1c1c;
 }
 .scrollerThemed-19vinI.themeGhostHairlineChannels-2lQojW .scroller-fzNley::-webkit-scrollbar-thumb {
     background-color: #3e3e3e;
