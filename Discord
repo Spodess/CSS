@@ -65,7 +65,7 @@
     background-color: #191919 !important;
 	}
 .theme-dark .chat > .content :first-child .scroller-wrap.polyfill .scrollbar .thumb::after {
-    background-color: #d65a61 !important;
+    background-color: #222222 !important;
     }
 .scroller-wrap.dark .scrollbar, .scroller-wrap.dark .scrollbar::after {
     background-color: #222222 !important;
@@ -150,26 +150,29 @@
 .theme-dark .chat-empty {
     background: #191919 !important;
     }
+.empty {
+    background: #222222 !important;
+}
 .private-channels .search-bar {
-    background-color: #191919 !important;
+    background-color: #222222 !important;
     box-shadow: none !important;
-    }
+}
 .private-channels .search-bar input {
     background: #222222 !important;
     border: none !important;
-    }
+}
 .private-channels {
-    background-color: #191919 !important;
-    }
+    background-color: #222222 !important;
+}
 .channel.selected::before {
     border-left: 3px solid #D65A61 !important;
-    }
+}
 .private-channels .channel.selected {
-    background: #222222 !important;
-    }
+    background: #1c1c1c !important;
+}
 .private-channels .channel:hover {
 	background: #1c1c1c !important;
-    }
+}
 .private-channels .search-result.selected,.private-channels .search-result:hover {
 	background: #D65A61 !important;
     }
@@ -1048,7 +1051,7 @@ input {
     background-color: #1c1c1c;
 }
 .private-channels .channel.selected a {
-    background-color: #222222;
+    background-color: #1c1c1c;
 }
 .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary {
     background-color: #d65a61;
@@ -1329,8 +1332,11 @@ textarea::selection {
 .thumb-3VsfAI {
     background-color: #3e3e3e !important;
 }
+.chat>.title-wrap>.topic .aka {
+    background: #3e3e3e;
+}
 .private-channels .channel:hover a {
-    background-color: #222222;
+    background-color: #1c1c1c;
 }
 .theme-dark #friends .friends-table .friends-row:hover {
     background: #222222;
@@ -1344,5 +1350,23 @@ textarea::selection {
 }
 .theme-dark #friends .friends-header .tab-bar .tab-bar-item:hover:not(.selected) {
     background-color: #222222;
+}
+.theme-dark .scrollerThemed-19vinI.themeGhostHairline-2H8SiW .scroller-fzNley::-webkit-scrollbar-thumb {
+    background-color: #1c1c1c;
+}
+.scrollerThemed-19vinI.themeGhostHairlineChannels-2lQojW .scroller-fzNley::-webkit-scrollbar-thumb {
+    background-color: #3e3e3e;
+}
+.theme-dark .friends-table .scroller-wrap.polyfill .scrollbar, .theme-dark .friends-table .scroller-wrap.polyfill .scrollbar::after, .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar, .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar::after {
+    background-color: #191919;
+}
+.theme-dark .friends-table .scroller-wrap.polyfill .scrollbar .track, .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar .track {
+    background-color: #191919;
+}
+.theme-dark .friends-table .scroller-wrap.polyfill .scrollbar .thumb::after, .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar .thumb::after {
+    background-color: #222222;
+}
+.theme-dark .friends-table .scroller-wrap.polyfill .scrollbar .thumb, .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar .thumb {
+    background-color: #191919;
 }
 }
