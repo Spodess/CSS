@@ -148,7 +148,7 @@
     background: #191919 !important;
     }
 .private-channels .search-bar {
-    background-color: #191919 !important;
+    background-color: #222222 !important;
     box-shadow: none !important;
     }
 .private-channels .search-bar input {
@@ -156,13 +156,13 @@
     border: none !important;
     }
 .private-channels {
-    background-color: #191919 !important;
+    background-color: #222222 !important;
     }
 .channel.selected::before {
     border-left: 3px solid #D65A61 !important;
     }
 .private-channels .channel.selected {
-    background: #222222 !important;
+    background: #1c1c1c !important;
     }
 .private-channels .channel:hover {
 	background: #1c1c1c !important;
@@ -1045,7 +1045,7 @@ input {
     background-color: #1c1c1c;
 }
 .private-channels .channel.selected a {
-    background-color: #222222;
+    background-color: #1c1c1c;
 }
 .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary {
     background-color: #d65a61;
@@ -1314,7 +1314,7 @@ textarea::selection {
     color: #8b8b8b;
 }
 .private-channels .channel:hover a {
-    background-color: #222222;
+    background-color: #1c1c1c;
 }
 .theme-dark #friends .friends-table .friends-row:hover {
     background: #222222;
