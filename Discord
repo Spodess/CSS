@@ -386,7 +386,7 @@
 .mention
 {
 	color: #d65a61 !important;
-	background: #202020 !important;
+	background: #202020  !important;
 	font-weight: 600;
 	-webkit-transition: background-color .05s,color .05s;
 	transition: background-color .05s,color .05s;
@@ -1828,7 +1828,7 @@ input
 .bot-tag.bot-tag-invert
 {
 	background: #646464;
-	color: #fff!important;
+	color: #fff !important;
 }
 
 .message-group .comment .attachment .upload>.filename
@@ -1973,5 +1973,20 @@ textarea::selection
 
 .scrollerThemed-19vinI.themeLight-1WK0Av.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-dark .scrollerThemed-19vinI.themeLight-1WK0Av.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-light .scrollerWrap-2uBjct.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track
 {
-	background-color: #222222;
+	background-color: #191919;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-thumb
+{
+	background-color: #191919;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-thumb, .scroller-wrap .scroller::-webkit-scrollbar-track-piece, .scroller-wrap .scroller::-webkit-scrollbar-corner
+{
+	border: 3px solid #222222;
+}
+
+#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name
+{
+	color: #9e9e9e;
 }
