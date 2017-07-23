@@ -76,7 +76,7 @@
 
 .theme-dark .chat > .content .messages .divider span
 {
-	background-color: #191919 !important;
+	background-color: #1c1c1c !important;
 }
 
 .chat .new-messages-bar
