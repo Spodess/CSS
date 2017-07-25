@@ -1387,7 +1387,7 @@ input
 
 .theme-dark .search-results-wrap .channel-separator:before
 {
-	border-color: #222222;
+	border-color: #222;
 }
 
 .theme-dark .search-results-wrap .channel-separator .channel-name
@@ -1969,4 +1969,28 @@ textarea::selection
 .theme-dark .selectorSelected-2M0IGv
 {
     background-color: #373737;
+}
+.theme-dark .search-results-wrap .search-result.expanded .search-result-message
+{
+    background-color: #1c1c1c !important;
+}
+.search-results-wrap .channel-separator
+{
+    background: #1c1c1c;
+}
+.search-results-wrap .search-result
+{
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 10px solid #1c1c1c;
+    border-right: 2px solid #1c1c1c;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    overflow: hidden;
+    background: #1c1c1c;
+}
+.search-results-wrap .results-wrapper
+{
+    border-left: 10px solid #1c1c1c !important;
 }
