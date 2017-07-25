@@ -1970,14 +1970,17 @@ textarea::selection
 {
     background-color: #373737;
 }
+
 .theme-dark .search-results-wrap .search-result.expanded .search-result-message
 {
     background-color: #1c1c1c !important;
 }
+
 .search-results-wrap .channel-separator
 {
     background: #1c1c1c;
 }
+
 .search-results-wrap .search-result
 {
     position: relative;
@@ -1990,7 +1993,13 @@ textarea::selection
     overflow: hidden;
     background: #1c1c1c;
 }
+
 .search-results-wrap .results-wrapper
 {
     border-left: 10px solid #1c1c1c !important;
+}
+
+.search-results-wrap .search-results
+{
+    background: #1c1c1c;
 }
