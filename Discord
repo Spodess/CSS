@@ -1973,7 +1973,7 @@ textarea::selection
 
 .theme-dark .search-results-wrap .search-result.expanded .search-result-message
 {
-    background-color: #1c1c1c !important;
+    background-color: #1c1c1c;
 }
 
 .search-results-wrap .channel-separator
@@ -1996,10 +1996,22 @@ textarea::selection
 
 .search-results-wrap .results-wrapper
 {
-    border-left: 10px solid #1c1c1c !important;
+    border-left: 10px solid #1c1c1c;
 }
 
 .search-results-wrap .search-results
 {
     background: #1c1c1c;
+}
+.theme-dark .search-results-wrap
+{
+    background-color: #1c1c1c;
+}
+.theme-dark .message-group .comment .markup pre
+{
+    border-color: #3e3e3e;
+}
+.theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code
+{
+    background: #222;
 }
