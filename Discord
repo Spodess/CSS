@@ -2015,3 +2015,31 @@ textarea::selection
 {
     background: #222;
 }
+
+.avatarNormal-3luwna
+{
+    border-color: #d65a61;
+}
+
+.footer-2J5zqP
+{
+    padding: 20px;
+    background-color: #222;
+}
+
+.body-3rkFrF
+{
+    background-color: #2c2c2c !important;
+    padding: 20px;
+    border-bottom: 1px solid #3e3e3e !important;
+}
+
+.header-3mZJcV .avatarStatusNormal-1OXVjG
+{
+    border-color: #fff;
+}
+
+.headerNormal-1cioxU
+{
+    background: #222;
+}
