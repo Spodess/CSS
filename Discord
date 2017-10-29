@@ -2043,3 +2043,24 @@ textarea::selection
 {
     background: #222;
 }
+.theme-dark .title-qAcLxz
+{
+    background: #222;
+}
+.container-iksrDt
+{
+    background: #222;
+}
+.theme-dark .headerBar-cxbhPD
+{
+    background: #1c1c1c;
+}
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary
+{
+    background-color: #3e3e3e;
+}
+.theme-dark #friends .tab-bar .tab-bar-item.selected
+{
+    background-color: #3e3e3e;
+    color: #fff;
+}
