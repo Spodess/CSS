@@ -1,3 +1,11 @@
+/* Make sure to add:
+
+URLs matching the regexp: chrome-extension://fjnbnpbmkenffdnngjfgmeleoegfcffe/edit.html.*
+URLs matching the regexp: chrome-extension://fjnbnpbmkenffdnngjfgmeleoegfcffe/manage.html*
+URLs matching the regexp: chrome-extension://fjnbnpbmkenffdnngjfgmeleoegfcffe/popup.html.*
+
+to your "applies to" section*/
+
 body {
     background: #1c1c1c;
     color: #dcdccc;
