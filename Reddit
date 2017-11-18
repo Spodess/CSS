@@ -1,6 +1,6 @@
 body {
-        background: #1c1c1c;
-        color: #d65a61;
+        background: #272b30;
+        color: #45494d;
         font-family: Verdana, Helvetica, Arial, Sans
     }
     h1,
@@ -18,28 +18,28 @@ body {
         font-size: 11px
     }
     a {
-        color: #d65a61
+        color: #70757b
     }
     a:hover {
-        color: #d65a61 !important;
+        color: #d4d7db !important;
         text-decoration: none !important
     }
     .user a {
-        color: #d65a61;
+        color: #7ac2f4;
         font-weight: bold
     }
     .userkarma a {
-        color: #d65a61;
+        color: #d4d7db;
         font-weight: normal
     }
     .userkarma {
-        color: #d65a61;
+        color: #d4d7db
     }
     .res-voteEnhancements-highlightScores span.score  {  /* RES 5.0 requires me to use this for orange score color. Otherwise it's dark black and difficult to read. */
-        color: rgb(214, 90, 97);                                       
+        color: rgb(255, 139, 96);                                       
     }
     .content h1 {
-        color: #d65a61;
+        color: #d4d7db
     }
     .md .-text,
     .md p,
@@ -56,16 +56,17 @@ body {
         font-size: 14px
     }
     ::selection {
-        background: #1c1c1c
+        background: #333e47;
+        color: #4e6c80
     }
     ::-moz-selection {
-        background: #1c1c1c;
-        color: #d65a61;
+        background: #333e47;
+        color: #4e6c80
     }
     .organic-listing {
         border: #323B41 1px solid;
         border-radius: 4px;
-        background: #1c1c1c !important;
+        background: #22262A !important;
         box-shadow: 2px 2px 8px rgba(0, 0, 0, .25) inset
     }
     .organic-listing .link,
@@ -77,81 +78,81 @@ body {
         display: none
     }
     .organic-listing .help {
-        color: #d65a61;
+        color: #8EAFC6
     }
     .organic-listing .nextprev .arrow.prev,
     .organic-listing .nextprev .arrow.next {
         opacity: .2
     }
     .trending-subreddits strong {
-        color: #d65a61;
+        color: #618463
     }
     #sr-header-area {
-        background: #1c1c1c;
-        color: #d65a61;
+        background: #1f2125;
+        color: #70757b;
         border: none
     }
     .sr-bar a,
     .sr-bar a:visited {
-        color: #d65a61 !important
+        color: #abaeb2 !important
     }
     #sr-header-area a.RESShortcutsCurrentSub,
     #RESSubredditGroupDropdown .RESShortcutsCurrentSub a {
-        color: #d65a61 !important;
+        color: #8eafc6 !important
     }
     .dropdown.srdrop .selected {
-        background: #1c1c1c;
-        color: #d65a61;
+        background: #1f2125;
+        color: #d4d7db;
         border-right: 1px solid #363b42
     }
     #header {
-        background: #1c1c1c;
+        background: #363b42;
         border: none
     }
     .pagename {
-        color: #d65a61;
+        color: #b2b5b9
     }
     .pagename a {
-        color: #d65a61;
+        color: #8eafc6
     }
     .tabmenu li a,
     abmenu li.selected a {
         border: none !important;
         border-radius: 3px 3px 0 0;
-        background: #1c1c1c;
-        color: #d65a61;
+        background: #363B42;
+        color: #888c91;
         font-size: 12px
     }
     .tabmenu li.selected a {
-        color: #d65a61 !important;
-        background: #1c1c1c;
+        color: #272b30 !important;
+        background: #272B30;
         border-bottom: none
     }
     #header-bottom-right {
         background: #141719
     }
     #userbarToggle {
-        background: #1c1c1c;
-        border-color: #1c1c1c;
-        color: #d65a61
+        background: #272b30;
+        border-color: #272b30;
+        color: #888c91
     }
     .user {
-        color: #d65a61
+        color: #70757b
     }
     .sr-interest-bar {
-        background-color: #1c1c1c;
+        background-color: #7D9F9B;
         border: none;
         border-radius: 4px
     }
     .sr-interest-bar .subscribe {
-        background: #1c1c1c;
+        background: #7D9F7E;
         border: none;
         font-size: 12px
     }
     .action-form {
-        background: #1c1c1c;
+        background: #3e4145;
         border: #45494d 1px solid;
-        color: #d65a61
+        color: #abaeb2
     }
     .panestack-title {
         border-bottom: #45494d 1px dotted
@@ -168,15 +169,15 @@ body {
         padding: 5px
     }
     .server-seconds {
-        background: #1c1c1c;
-        color: #d65a61;
+        background: #C2D0D9;
+        color: #52616C;
         border: none
     }
     .server-seconds em {
-        color: #d65a61
+        color: #2C5A7B
     }
     .server-seconds-public.bottom {
-        color: #d65a61
+        color: #4e6c80
     }
     .link {
         padding-top: 5px;
@@ -186,36 +187,36 @@ body {
         margin-top: 0
     }
     .thing .title {
-        color: #d65a61;
+        color: #C2C2C7;
         font-weight: 300;
         font-family: Helvetica, Arial, Sans
     }
     .thing a.title:visited {
-        color: #d65a50 !important
+        color: #856496 !important
     }
     .tagline {
-        color: #d65a61
+        color: #78A0D6
     }
     .tagline a,
     .subreddit,
     .comment .author {
-        color: #d65a61;
+        color: #7d9f9b;
         font-weight: normal
     }
     .tagline .friend {
-        background: #1c1c1c;
-        color: #d65a61;
+        background: #D77766;
+        color: #ffffff;
         border-radius: 3px;
         padding: 0 4px
     }
     .domain a {
-        color: #d65a61
+        color: #8EAFC6
     }
     .entry .buttons li {
         line-height: 12px
     }
     .entry .buttons li a {
-        color: #d65a61
+        color: #7c8187
     }
     .expando-button {
         opacity: .4;
@@ -225,25 +226,25 @@ body {
         border: #45494d dashed 1px
     }
     .flat-list.buttons li a {
-        color: #d65a61
+        color: #686B6F
     }
     .flat-list li.selected a {
-        color: #d65a61
+        color: #d77766
     }
     .newComments {
-        color: #d65a61
+        color: #d77766
     }
     .redditSingleClick {
-        color: #d65a61
+        color: #70757B
     }
     .redditSingleClick:hover {
-        color: #d65a61
+        color: #ffffff
     }
     .thing.stickied a.title,
     .thing.stickied a.title:visited,
     .thing.stickied a.title.visited,
     .tagline .stickied-tagline {
-        color: #d65a61
+        color: #618463
     }
     .arrow.up,
     .arrow.down {
@@ -251,11 +252,11 @@ body {
     }
     .link .score {
         font-weight: normal;
-        color: #d65a61
+        color: #888c91
     }
     .link .rank {
         font-weight: normal;
-        color: #d65a61;
+        color: #383B40;
         background: none;
         text-align: center;
         border-radius: 50%;
@@ -263,79 +264,79 @@ body {
         font-size: 12px
     }
     .thumbnail {
-        border: #d65a61 solid 1px;
+        border: #45494d solid 1px;
         border-radius: 3px
     }
     .side {
-        background: #1c1c1c;
+        background: #363b42;
         padding: 5px;
         border-radius: 6px;
         margin: 5px;
-        color: #d65a61
+        color: #70757b
     }
     .login-form-side {
-        border: #d65a61 1px solid;
+        border: #45494d 1px solid;
         border-radius: 4px
     }
     #search input[type="text"] {
-        background: #1c1c1c;
-        color: #d65a61;
+        background: #D4D7DB;
+        color: #888c91;
         border: none
     }
     #search input[type="text"]:focus {
-        background: #1c1c1c;
-        color: #d65a61
+        background: #ffffff;
+        color: #272b30
     }
     .login-form-side input[type="text"],
     .login-form-side input[type="password"] {
-        background: #1c1c1c;
-        color: #d65a61;
+        background: #70757b;
+        color: #abaeb2;
         border: none
     }
     .login-form-side input[type="text"]:focus,
     .login-form-side input[type="password"]:focus {
-        background: #1c1c1c;
-        color: #d65a61
+        background: #ffffff;
+        color: #3e4145
     }
     button,
     html input[type="button"],
     input[type="reset"],
     input[type="submit"] {
-        background: #1c1c1c;
+        background: #7d9f9b;
         border: none;
         border-radius: 3px;
-        color: #d65a61;
+        color: #fff;
         margin-right: 4px
     }
     .titlebox h1 {
         font-size: 22px
     }
     .titlebox h1 a {
-        color: #d65a61
+        color: #8eafc6
     }
     .md {
-        color: #d65a61
+        color: #B8B9BB
     }
     .md a {
-        color: #d65a61
+        color: #8eafc6
     }
     .md a:visited {
-        color: #d65a61 !important
+        color: #5f5365 !important
     }
     .morelink,
     .morelink:hover {
-        background: #1c1c1c;
+        background: #1f2125;
         border: none;
         border-radius: 3px
     }
     .morelink:hover {
-        background: #1c1c1c
+        background: #27292E
     }
     .morelink .nub {
         display: none
     }
     .morelink a {
-        color: #d65a61;
+        color: #d4d7db;
         font-weight: normal;
         letter-spacing: normal;
         font-size: 14px
@@ -343,45 +344,45 @@ body {
     .giftgold a,
     .gilded-link a {
         font-weight: normal;
-        color: #d65a61
+        color: #FDE379
     }
     .goldvertisement .inner {
-        background: #1c1c1c
+        background: #fcf2b4
     }
     .gadget small {
-        color: #d65a61
+        color: #70757B
     }
     .gadget a {
-        color: #d65a61
+        color: #888c91
     }
     .gadget a.reddit-comment-link {
         color: #fff
     }
     .sidebox .spacer {
-        background: #d65a61
+        background: #70757b
     }
     .sidebox .subtitle {
-        color: #d65a61
+        color: #B7BBC0
     }
     .sidecontentbox .content {
-        background: #1c1c1c;
+        background: #272b30;
         border: none
     }
     .nsfw-stamp acronym {
         font-size: 8px
     }
     .nsfw-stamp {
-        color: #d65a61;
-        background: #1c1c1c
+        color: #B17272;
+        background: #1f2125
     }
     .flair {
         font-size: 9px
     }
     .flair,
     .linkflairlabel {
-        background: #1c1c1c;
+        background: #dac46a;
         border: #fde379 1px solid;
-        color: #d65a61;
+        color: #826F21;
         opacity: .75
     }
     .flair:hover,
@@ -401,7 +402,7 @@ body {
         font-size: 8px
     }
     .nav-buttons {
-        background: #1c1c1c;
+        background: #32373d;
         padding: 10px
     }
     .nextprev,
@@ -410,21 +411,21 @@ body {
     }
     .nextprev a,
     .next-suggestions a {
-        background: #1c1c1c;
+        background: #1f2125;
         border: #141719 solid 1px;
         border-radius: 4px;
         box-shadow: 0 1px 0 rgba(255, 255, 255, .2)inset;
-        color: #d65a61;
+        color: #d4d7db;
         font-weight: normal;
         padding: 2px 10px
     }
     .nextprev a:hover,
     .next-suggestions a:hover {
-        background: #1c1c1c;
+        background: #272b30;
         border: #141719 solid 1px;
         border-radius: 4px;
         box-shadow: 0 1px 0 rgba(255, 255, 255, .2)inset;
-        color: #d65a61;
+        color: #d4d7db;
         font-weight: normal;
         padding: 2px 10px
     }
@@ -438,21 +439,21 @@ body {
     }
     .footer {
         border: none;
-        background: #1c1c1c
+        background: #32373d
     }
     .footer .col {
         border-left: #45494d 1px solid
     }
     .flat-vert.title {
-        color: #d65a61;
+        color: #888c91;
         font-weight: normal;
         font-size: 16px
     }
     .bottommenu .updated {
-        color: #d65a61
+        color: #7D9F7E
     }
     .bottommenu {
-        color: #d65a61
+        color: #70757b
     }
     body.with-listing-chooser .listing-chooser.initialized .contents {
         position: fixed
@@ -461,7 +462,7 @@ body {
         display: none
     }
     body.with-listing-chooser .listing-chooser .grippy {
-        background: #1c1c1c
+        background: #272b30
     }
     body.with-listing-chooser.listing-chooser-collapsed .listing-chooser .grippy:after {
         border: #1f2125 1px solid
@@ -470,58 +471,58 @@ body {
         border-left: #1f2125 1px solid
     }
     body.with-listing-chooser .listing-chooser .grippy:hover:after {
-        background: #1c1c1c
+        background: #363b42
     }
     body.with-listing-chooser .listing-chooser .grippy:after {
         border-right: #1f2125 1px solid
     }
     body.with-listing-chooser .listing-chooser {
-        background: #1c1c1c
+        background: #363b42
     }
     .listing-chooser .intro {
-        background: #1c1c1c;
-        color: #d65a61;
-        border-color: #1c1c1c
+        background: #70757b;
+        color: #d4d7db;
+        border-color: #272b30
     }
     .listing-chooser li {
-        background: #1c1c1c;
+        background: #272b30;
         border: none
     }
     .listing-chooser li.selected {
-        background: #1c1c1c
+        background: #d4d7db
     }
     .listing-chooser li.selected a span {
-        color: #d65a61
+        color: #363b42
     }
     .listing-chooser li.selected a:hover {
-        color: #d65a61 !important
+        color: #5c91ba !important
     }
     .infobar {
         border: none;
         border-radius: 4px
     }
     .infobar .md {
-        color: #d65a61
+        color: #826F21
     }
     .infobar .md a {
-        color: #d65a61
+        color: #DD6148
     }
     .tabmenu li.selected a {
-        color: #d65a61 !important;
+        color: #d4d7db !important;
         font-size: 12px !important
     }
     .tabmenu.formtab .selected a {
-        background: #d65a61
+        background: #4e6c80
     }
     .formtabs-content {
-        border-top: #d65a51 4px solid
+        border-top: #4e6c80 4px solid
     }
     .content.submit .info-notice {
-        background-color: #1c1c1c;
+        background-color: #22262a;
         border: #344a4a 1px solid
     }
     .link .usertext .md {
-        background: #1c1c1c;
+        background: #363b42;
         border: none;
         padding: 10px
     }
@@ -530,26 +531,26 @@ body {
         border-left: #363b42 1px dotted
     }
     .morecomments a {
-        background: #1c1c1c;
+        background: #363b42;
         color: #70757b;
         padding: 0 4px;
         border-radius: 3px;
         font-weight: normal !important
     }
     .tagline .submitter {
-        background: #1c1c1c !important;
+        background: #2471A5 !important;
         color: #FFFFFF;
         padding: 0 4px;
         border-radius: 3px
     }
     .thing .tagline .author.friend {
-        background-color: #1c1c1c !important
+        background-color: #d77766 !important
     }
     .thing .tagline .author.submitter {
-        background: #1c1c1c !important
+        background: #2471A5 !important
     }
     .thing .tagline .author.admin {
-        background: #1c1c1c !important
+        background: #A22F2F !important
     }
     .tagline .admin {
         color: #A22F2F
@@ -562,16 +563,16 @@ body {
         color: #9E7B5C
     }
     a.voteWeight {
-        background-color: #1c1c1c !important;
+        background-color: #618463 !important;
         color: #c2d0d9 !important;
         border-radius: 3px;
         padding: 0 2px
     }
     .drop-choices a.choice:hover {
-        background: #1c1c1c
+        background: #70757b
     }
     .linkinfo {
-        background: #1c1c1c;
+        background: #1f2125;
         border: none;
         padding: 10px;
         text-align: center
@@ -587,24 +588,24 @@ body {
         color: #70757b
     }
     .linkinfo .shortlink input {
-        background: #1c1c1c;
+        background: #363b42;
         border: none;
         color: #d4d7db;
         margin: 5px
     }
     .fancy-toggle-button .remove {
-        background: #1c1c1c
+        background: #B17272
     }
     .fancy-toggle-button .add {
-        background: #1c1c1c
+        background: #618463
     }
     .fancy-toggle-button .add:hover {
-        background: #1c1c1c !important;
+        background: #7D9F7E !important;
         color: #ffffff !important
     }
     .titlebox form.toggle,
     .leavemoderator {
-        background: #1c1c1c;
+        background: #7D9F9B;
         padding: 5px;
         color: #ffffff
     }
@@ -621,7 +622,7 @@ body {
         line-height: 1.4em
     }
     .md hr {
-        background: #1c1c1c
+        background: #45494d
     }
     .side .md h1,
     .side .md h2 {
@@ -632,12 +633,12 @@ body {
         text-decoration: none
     }
     .md blockquote {
-        border-left: #d65a51 4px solid;
-        color: #d65a41;
-        background: #1c1c1c
+        border-left: #4E6C80 4px solid;
+        color: #6086A0;
+        background: #2a3037
     }
     .md blockquote del {
-        color: #d65a51
+        color: #4e6c80
     }
     .deepthread a {
         color: #dac46a
@@ -651,7 +652,7 @@ body {
     }
     .md code,
     .md pre {
-        background: #1c1c1c;
+        background: #323536;
         border: none;
         border-left: #686353 4px solid;
         border-radius: 0;
@@ -680,7 +681,7 @@ body {
         opacity: 1
     }
     .usertext.grayed .usertext-body {
-        background-color: #1c1c1c;
+        background-color: #363b42;
         border-radius: 3px
     }
     .explore-label a.explore-label-link:hover {
@@ -698,7 +699,7 @@ body {
         border-color: #45494D
     }
     .explore-item .explore-feedback-dismiss {
-        background-color: #1c1c1c;
+        background-color: #DEDEDE;
         border-radius: 2px
     }
     .explore-item .explore-feedback .fancy-toggle-button .add,
@@ -743,7 +744,7 @@ body {
         border-radius: 4px
     }
     #alert_message input[type=button] {
-        background-color: #1c1c1c !important
+        background-color: #272b30 !important
     }
     .subreddit .usertext .md {
         background: #363B42;
@@ -756,7 +757,7 @@ body {
         color: #D4D7DB
     }
     .searchpane {
-        background: #1c1c1c;
+        background: #272B30;
         border: #3B4149 1px solid;
         border-radius: 4px
     }
@@ -858,7 +859,7 @@ body {
         color: #abaeb2
     }
     .wiki-page .pageactions .wikiaction-current {
-        background: #d65a51
+        background: #4e6c80
     }
     .wiki-page .pageactions .wikiaction:hover {
         background: #333e47
@@ -867,7 +868,7 @@ body {
         border-color: #3e4145
     }
     .wiki-page-content .md h2 {
-        color: #d65a51
+        color: #4e6c80
     }
     .wiki-page .wiki-page-content .description h2 {
         color: #abaeb2
@@ -1035,32 +1036,32 @@ body {
     .RES-keyNav-activeElement,
     .commentarea .RES-keyNav-activeElement .md,
     .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
-        background-color: #1c1c1c !important;
+        background-color: #32353B !important;
         box-shadow: 0 2px 12px rgba(0, 0, 0, .1)
     }
     .RES-keyNav-activeElement,
     .RES-keyNav-activeElement .md-container {
-        background-color: #1c1c1c !important
+        background-color: #32353B !important
     }
     .res-commentBoxes .thing.comment {
         background: none !important;
-        border-color: #1c1c1c !important;
+        border-color: #32353b !important;
         border-radius: 4px
     }
     .res-commentBoxes .thing.comment .thing.comment {
-        background: #1c1c1c !important
+        background: #23262C !important
     }
     .res-commentBoxes .thing.comment .thing.comment .thing.comment {
-        background: #1c1c1c !important
+        background: #272b30 !important
     }
     .res-commentBoxes .thing.comment .thing.comment .thing.comment .thing.comment {
-        background: #1c1c1c !important
+        background: #23262C !important
     }
     .res-commentBoxes .thing.comment .thing.comment .thing.comment .thing.comment .thing.comment {
-        background: #1c1c1c !important
+        background: #272b30 !important
     }
     .res-commentBoxes .thing.comment .thing.comment .thing.comment .thing.comment .thing.comment .thing.comment {
-        background: #1c1c1c !important
+        background: #23262C !important
     }
     .sender .RESUserTag a {
         background: #888c91 !important;
@@ -1088,9 +1089,199 @@ body {
     .infobar {
         background-color: #1AD486;
     }
-  	.new-comment .usertext-body { /* reddit gold highlights */
+    .new-comment .usertext-body { /* reddit gold highlights */
         background-color:#232323!important;
         border-color:#9a7d2e!important;
         border-radius:8px!important;
         border-width:1px!important;
     }
+    code { 
+        background-color: #1f2125 !important; 
+	}
+
+    pre {
+    	background-color: #1f2125 !important;                              
+    }
+    span.spoiler-stamp {
+    	color: #afb5af;                                        
+    }
+
+.thing a.title:visited,
+.thing .title:visited,
+.thing.visited .title, 
+.thing.visited .source-url { 
+	color: #856496 !important
+}
+
+.SettingsForm__desc, .SettingsForm__label { 
+	color: #C2C2C7;
+}
+
+
+#publicDescription::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #C2C2C7;
+}
+#publicDescription:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #C2C2C7;
+   opacity:  1;
+}
+#publicDescription::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #C2C2C7;
+   opacity:  1;
+}
+#publicDescription:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #C2C2C7;
+}
+#publicDescription::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #C2C2C7;
+}
+
+/* new profile page */
+.Post,
+.ProfileSidebar__titleContainer,
+.CommentListing__comment {
+	background-color: #363b42;
+}
+
+.ProfileTemplate.m-updated {
+	background: #272b30;
+}
+
+.Post.m-profile {
+	font-family: Helvetica, Arial, Sans;
+}
+
+.ProfileSidebar__nameTitleLink,
+.ProfileSidebar__description,
+.ProfileSidebar__counters { 
+	color: white;
+}
+
+.Post .Post__titleLink,
+.CommentTitle__postTitle {
+	color: #C2C2C7;
+	font-weight: 300;
+	font-family: Helvetica, Arial, Sans;
+}
+
+.Post a.Post__titleLink:visited {
+	color: #856496 !important
+}
+
+.Post__authorLink,
+.Post__authorLink:visited,
+.Post__subredditLink,
+.Post__subredditLink:visited,
+.Post__tagline a,
+.Comment__author,
+.Comment__author:visited,
+.Post__username,
+.Post__username:visited,
+.CommentTitle__postAuthor,
+.CommentTitle__postAuthor:visited,
+.CommentTitle__subredditName,
+.CommentTitle__subredditName:visited {
+	color: #7d9f9b;
+	font-weight: normal
+}
+
+.Post__source a {
+	color: #8EAFC6;
+}
+
+.Post.m-profile,
+.Post .m-notProfileOwner { 
+    border: 1px solid #4c4c4c;
+}
+
+.Post__comment:hover {
+	background: #212121;
+}
+
+.Comment__authorBadgeText.m-op,
+.Comment.m-op .Comment__author {
+	background: #2471A5 !important;
+	color: #FFFFFF;
+	padding: 0 4px;
+	border-radius: 3px
+}
+
+.TabMenu__tab,
+.ProfileBarDropdown__title,
+.UserSpecialsListSidebar__header,
+.UserSpecialsListSidebar__date,
+.UserSpecialsListSidebar__title,
+.UserTopSubredditsSidebar__header,
+.SubredditListItem__subscribers,
+.TrophyCaseSidebar__header,
+.TrophyCaseSidebar__trophyDescription,
+.TrophyCaseSidebar__trophyTitle,
+.TrendingProfilesSidebar__header,
+.UserModeratedSubredditsSidebar__header {
+	color: #888c91;
+}
+
+
+.SubredditListItem__subredditLink,
+.TrendingProfilesSidebar__profileName {
+	color: #FFFFFF;
+}
+
+.Post__linkFlair {
+	background: #dac46a;
+	border: #fde379 1px solid;
+	color: #826F21;
+	opacity: .75
+}
+
+.Post__linkFlair:hover {
+	opacity: 1;
+	cursor: default;
+	zoom: 1;
+	filter: alpha(opacity=100);
+	-webkit-transition: opacity .35s ease-in-out;
+	-moz-transition: opacity .35s ease-in-out;
+	-ms-transition: opacity .35s ease-in-out;
+	-o-transition: opacity .35s ease-in-out;
+	transition: opacity .35s ease-in-out
+}
+
+.Post__linkFlair {
+	font-family: Verdana, Helvetica, Arial, Sans;
+	font-size: 8px
+}
+
+.Post__flatListFlair.m-nsfw {
+	color: #B17272;
+	background: #1f2125
+}
+
+.BlueBar {
+	background: #363b42;
+	border: none
+}
+
+.SubscriptionBar {
+	background: #1f2125;
+	color: #70757b;
+	border: none
+}
+
+.SubscriptionBar__subredditLink,
+.SubscriptionBar__subredditLink:visited {
+	color: #abaeb2 !important
+}
+
+.BlueBar__account {
+	background: #141719
+}
+
+.BlueBar__username {
+	color: #7ac2f4;
+	font-weight: bold
+}
+
+.BlueBar__prefs,
+.BlueBar__logout {
+	color: #70757b;
+}
