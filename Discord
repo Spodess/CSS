@@ -2070,3 +2070,7 @@ textarea::selection
     border-bottom: 1px solid #3e3e3e;
     color: #fff;
 }
+.ui-video
+{
+    background-color: #323232;
+}
