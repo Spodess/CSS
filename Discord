@@ -2152,6 +2152,7 @@ textarea::selection
 {
     background-color: #515151;
 }
-.theme-dark .footer-1PYmcw {
+.theme-dark .footer-1PYmcw
+{
     background-color: #383838;
 }
