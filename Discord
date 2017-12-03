@@ -2120,3 +2120,19 @@ textarea::selection
     background-color: #515151;
     border-color: #3e3e3e;
 }
+.theme-dark .headerClickable-1jGUp8, .theme-dark .headerDefault-1ajMkj
+{
+    background-color: rgba(34,34,34,.3);
+    color: #b9bbbe;
+}
+.theme-dark .auditLog-1XsYCj
+{
+    background: #383838;
+    border-color: #202225;
+    color: #72767d;
+}
+.theme-dark .headerExpanded-wW1rBx
+{
+    background-color: rgba(62,62,62,.6);
+    color: #b9bbbe;
+}
