@@ -2110,10 +2110,7 @@ textarea::selection
 }
 .theme-dark.context-menu .context-menu
 {
-    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.1);
     background: #3e3e3e;
-    border: 1px solid #1e2124;
-    box-shadow: 0 1px 4px rgba(0,0,0,.1);
 }
 .checkbox .checkbox-inner input[type=checkbox]:checked:disabled+span
 {
