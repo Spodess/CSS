@@ -2140,6 +2140,18 @@ textarea::selection
 {
     background-color: #222;
 }
-.theme-dark .changeDetails-zbf-61 {
+.theme-dark .changeDetails-zbf-61
+{
     background-color: rgba(34,34,34,.3);
+}
+.theme-dark .ui-popout-list
+{
+    background: #3e3e3e;
+}
+.theme-dark .ui-search-bar
+{
+    background-color: #515151;
+}
+.theme-dark .footer-1PYmcw {
+    background-color: #383838;
 }
