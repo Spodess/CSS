@@ -2074,3 +2074,49 @@ textarea::selection
 {
     background-color: #323232;
 }
+.theme-dark .headerNormal-1cioxU
+{
+    background-color: #222;
+}
+.theme-dark .body-3rkFrF, .theme-dark .footer-2J5zqP
+{
+    background-color: #222;
+}
+.theme-dark .quickMessage-28pD5Y
+{
+    background-color: rgba(62,62,62,.3);
+    border-color: #3e3e3e;
+    color: hsla(0,0%,100%,.7);
+}
+.topSectionNormal-2LlRG1
+{
+    background-color: #1c1c1c;
+}
+.theme-dark .body-3_tdh6
+{
+    background-color: #222;
+}
+.buttonGreenFilledDefault-_lLQaz:hover
+{
+    background-color: #d65a61;
+}
+.theme-dark.context-menu .item:hover
+{
+    background: #3e3e3e;
+}
+.theme-dark.context-menu .item-subMenu
+{
+    background: #3e3e3e no-repeat 155px 50%;
+}
+.theme-dark.context-menu .context-menu
+{
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.1);
+    background: #3e3e3e;
+    border: 1px solid #1e2124;
+    box-shadow: 0 1px 4px rgba(0,0,0,.1);
+}
+.checkbox .checkbox-inner input[type=checkbox]:checked:disabled+span
+{
+    background-color: #515151;
+    border-color: #3e3e3e;
+}
