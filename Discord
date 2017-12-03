@@ -2127,12 +2127,19 @@ textarea::selection
 }
 .theme-dark .auditLog-1XsYCj
 {
-    background: #383838;
-    border-color: #202225;
+    background: #222;
+    border-color: #222;
     color: #72767d;
 }
 .theme-dark .headerExpanded-wW1rBx
 {
-    background-color: rgba(62,62,62,.6);
+    background-color: rgba(34,34,34,.3);
     color: #b9bbbe;
+}
+.theme-dark .divider-ShvCWe
+{
+    background-color: #222;
+}
+.theme-dark .changeDetails-zbf-61 {
+    background-color: rgba(34,34,34,.3);
 }
