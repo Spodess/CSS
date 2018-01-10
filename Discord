@@ -2153,3 +2153,7 @@ textarea::selection
 {
     background-color: #383838;
 }
+.theme-dark .typing-3eiiL_
+{
+    background-color: #1c1c1c;
+}
