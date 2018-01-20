@@ -2153,3 +2153,30 @@ textarea::selection
 {
     background-color: #383838;
 }
+.theme-dark .typing-3eiiL_
+{
+    background-color: #1c1c1c;
+}
+.emojiPicker-3g68GS
+{
+    background-color: #222;
+    border: 1px solid hsla(0,0%,11%,.2);
+}
+.emojiPicker-3g68GS .scroller-2dsok0 .emojiItem-3l4Fa9.selected-1LQfcZ
+{
+    background-color: #3e3e3e;
+    border-radius: 3px;
+}
+.emojiPicker-3g68GS .categories-jw8z2h .item-lsWB-j.selected-1LQfcZ
+{
+    border-bottom-color: #d65a61;
+}
+.emojiPicker-3g68GS .dimmer-jySV_v.visible-1CGy1m
+{
+    background-color: hsla(0, 0%, 11%, 0.6);
+}
+.diversitySelector-O3ea2c .popout-2lja3I
+{
+    background: #1c1c1c;
+    border: 1px solid #3e3e3e;
+}
