@@ -2180,3 +2180,11 @@ textarea::selection
     background: #1c1c1c;
     border: 1px solid #3e3e3e;
 }
+.emojiPicker-3g68GS .stickyHeader-3LjM5X
+{
+    background: #222;
+}
+.emojiPicker-3g68GS .category-3rCtoh
+{
+    color: #98aab6;
+}
