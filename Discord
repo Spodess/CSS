@@ -2188,3 +2188,7 @@ textarea::selection
 {
     color: #6e6e6e;
 }
+.theme-dark .embedInner-t4ag7g
+{
+    background-color: rgba(34,34,34,.3);
+}
