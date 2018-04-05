@@ -2192,3 +2192,7 @@ textarea::selection
 {
     background-color: rgba(34,34,34,.3);
 }
+.theme-dark .members-1bid1J
+{
+    background-color: #222;
+}
